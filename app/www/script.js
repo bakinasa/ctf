@@ -198,5 +198,4 @@ function draw()
 	ctx.fillText(score+'',50,50);
 	ctx.fillText(youx+' '+youy,550,50);
 }
-document.getelemtByID.innerHtml = "https://media.vanityfair.com/photos/55d4ee7f169027501c6fa604/master/w_2560%2Cc_limit/vin-diesel-royal-doppleganger.jpg"
 window.addEventListener("load",draw,true);
